@@ -1,0 +1,142 @@
+/* SMALLER THAN 1100
+========================================================================== */
+
+@media only screen and (max-width : 992px) {
+
+	.search-options .col{ 
+		max-width: 200px;}
+
+}
+
+@media handheld, only screen and (max-width: 767px){
+
+	body{
+	    font: normal 300 16px/160% 'Roboto', sans-serif;}
+
+	h1{
+		font-size: 1.75em;
+		line-height: 160%;}
+
+	.button,
+	.button-red,
+	.button-black,
+	a.button,
+	a.button-red,
+	a.button-black{
+	    font-size: .875em;
+	    line-height: 160%;}
+
+	.close-button{ 
+	    display: inline-block;
+	    position: fixed;
+	    top: 1em;
+	    right: 1em;
+	    cursor: pointer;
+	    z-index: 9999;
+	    line-height: 160%;}
+
+	.top-frame{
+	    height: 4.445em;
+	    line-height: 4.445em;}
+
+	.top-frame #site-logo img{
+	    max-width: 6em;}
+
+	.top-frame .item{
+		margin: 0 0 0 1.5em;}
+
+	.top-frame .user-options:before{ 
+	    content: "MI PERFIL";
+	    position: absolute;
+	    top: -.3em;
+	    left: 1.5em;
+	    width: 100%;}
+
+	.top-frame .option{
+		position: fixed;
+		background: #101B25;
+	    top: 0;
+	    height: 100%;
+	    right: 0;
+	    margin-top: 0;
+	    box-shadow: 0 2px 2px rgba(0,0,0,0);
+	    width: 100%;
+	    z-index: 9;
+	    text-align: center;}
+
+	.top-frame .option ul{ 
+		border: none;
+		margin-top: 4em;
+		background: #101B25;
+		width: 100%;}
+
+	.top-frame .option ul li {
+		font-size: 1em;
+		border-bottom: 1px solid #56616b;
+		line-height: 160%;}
+
+	.top-frame .user-options ul li:first-child{ 
+		border-top: 1px solid #56616b;}
+
+	.top-frame .user-options ul li:last-child{
+		border-bottom: 1px solid #56616b;}
+
+	.top-frame .option:after,
+	.top-frame .option:before{ 
+		border: none;}
+
+	.top-frame .option ul li a {
+		color: #ccc;
+		font-size: .875em;
+		line-height: 160%;
+		text-transform: uppercase;
+		padding: 1em 0;}
+
+	.top-frame .option ul li a i {
+	    float: none;
+	    color: #666;
+		margin: 0 .5em;}
+
+	.primary-wrapper{ 
+	    padding: 0 5% 1em 5%;}
+
+	#start .categories label {
+		width: 30%;
+		padding: 7em 0 1em 0;}
+
+	#start .categories label#comida,
+	#start .categories label#Comida{ 
+	    background: url(../img/comida-icon.png) no-repeat center 2em;
+	    background-size: 3em;}
+
+	#start .categories label#licores,
+	#start .categories label#Licores{ 
+	    background: url(../img/licores-icon-4.png) no-repeat center 2em;
+	    background-size: 3em;}
+
+	#start .categories label#minimarket,
+	#start .categories label#minimarkets,
+	#start .categories label#Minimarket,
+	#start .categories label#Minimarkets{ 
+	    background: url(../img/minimarkets-icon-2.png) no-repeat center 2em;
+	    background-size: 3em;}
+
+	.search-options .col{ 
+		margin-bottom: 1em;
+		width: 100%;
+		max-width: 100%;}
+
+	.search-options .col:last-child{ 
+		margin-bottom: 0;}
+
+	.search-options .col .ui-widget{
+		width: 100% !important;}
+
+	.establishments ul{
+	    margin: 0 0 0 -5%;}
+
+	.establishments ul li{
+	    margin: 0 0 2em 5%;
+	    width: 44%;}
+
+}

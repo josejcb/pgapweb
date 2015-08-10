@@ -1,0 +1,143 @@
+/* GLOBAL
+========================================================================== */
+
+/* Default
+---------------------------------------- */
+
+.ui-widget-overlay{ 
+	background: #000;
+	opacity: .5;}
+
+.ui-widget-content{ 
+	border: none;}
+
+.ui-widget-header{ 
+	font-weight: normal;}
+
+.ui-state-default, 
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default{
+	border: 1px solid rgba(255,255,255,.15);
+	background: rgba(255,255,255,.15);
+	color: #fff;
+	border: none;
+	vertical-align: top;
+	transition: all .2s ease;}
+
+.ui-state-default .ui-icon{ 
+	background-image: url("../vendors/jquery-ui/images/ui-icons_fff_256x240.png");}
+
+
+/* Hover
+---------------------------------------- */
+
+.ui-state-hover, 
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover{
+	background: rgba(255,255,255,.2);}
+
+
+/* Focus
+---------------------------------------- */
+
+.ui-state-focus, 
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus{
+	background: #fff;
+	color: #222;
+	outline: none;}
+
+.ui-state-focus .ui-icon{ 
+	background-image: url("../vendors/jquery-ui/images/ui-icons_222_256x240.png");}
+
+
+/* Focus
+---------------------------------------- */
+
+.ui-state-error{
+	box-shadow: 0 0 5px #ed4d44;
+	border: 1px solid #ed4d44;}
+
+
+/* SPECIFIC
+========================================================================== */
+
+/* Dialog
+---------------------------------------- */
+
+.ui-dialog{
+	padding: 0;}
+
+.ui-dialog .ui-dialog-content{
+	padding: 1em;}
+
+.ui-dialog .ui-dialog-content p{ 
+	max-width: 600px;} 
+
+.ui-dialog .ui-dialog-titlebar-close{ 
+	right: 1em;}
+
+.ui-dialog .ui-widget-header{
+	background: #eee;
+	border-bottom: 1px solid #ddd;}
+
+.ui-dialog .ui-dialog-title{ 
+	font-size: 1.5em; /* Same as H3 */
+	line-height: 160%;}
+
+.ui-dialog .options{ 
+	padding-top: .5em;
+	text-align: right;}
+
+.ui-dialog .options a.button{ 
+	font-size: .777em;
+	line-height: 160%;
+	margin-left: .5em;}
+
+.ui-dialog .ui-state-default .ui-icon{ 
+	background-image: url("../vendors/jquery-ui/images/ui-icons_222_256x240.png");}
+
+
+/* Selectmenu
+---------------------------------------- */
+
+.ui-selectmenu-button span.ui-selectmenu-text{ 
+	line-height: 160%;
+	padding: .5em 1em;}	
+
+.has-icon .ui-selectmenu-button span.ui-selectmenu-text{ 
+	padding: .5em 1em .5em 3em;}
+
+.ui-menu .ui-menu-item {
+	padding: 3px 1em 3px;}
+
+.ui-menu .ui-menu-item.ui-state-focus{
+	background: #00afab;
+	color: #fff;}
+
+.ui-selectmenu-menu li:first-child{
+	display: none !important;}
+
+/* Date pickers
+---------------------------------------- */
+
+.ui-datepicker .ui-datepicker-prev:hover,
+.ui-datepicker .ui-datepicker-next:hover{ 
+	border: 1px solid #fff;}
+
+.ui-datepicker .ui-state-default{ 
+	color: #222;
+	border: 1px solid #eee;}
+
+.ui-datepicker .ui-state-hover{ 
+	border: 1px solid #ccc;}
+
+.ui-datepicker .ui-state-highlight{ 
+	color: #00afab;
+	border: 1px solid #00afab;}
+
+.ui-datepicker .ui-state-active{ 
+	background: #00afab;
+	border: 1px solid #00afab;
+	color: #fff;}
+

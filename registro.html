@@ -1,0 +1,77 @@
+<html>
+<head>
+	<meta charset="utf-8" /> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>home</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<!-- Vendor -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="lib/css/normalize.min.css">
+	<link rel="stylesheet" href="lib/css/jquery-ui.css" />
+	<!-- Local -->
+	<link rel="stylesheet" href="lib/webfonts/ss-social-regular.css" type="text/css">
+	<link rel="stylesheet" href="lib/webfonts/ss-standard.css" type="text/css" media="all">
+	<link rel="stylesheet" href="lib/css/ui-styles.css" type="text/css" media="all">
+	<link rel="stylesheet" href="lib/css/main.css" type="text/css" media="all">
+	<link rel="stylesheet" href="lib/css/responsive.css" type="text/css" media="all">
+
+	<!-- Vendors -->
+	<script src="lib/js/jquery.min.js"></script>
+	<script src="lib/js/jquery-ui.min.js"></script>
+	<script src="lib/js/modernizr.min.js"></script>
+	<script src="lib/js/placeholders.min.js"></script>
+	<script src="lib/js/jquery.validate.min.js"></script>
+	<script src="lib/js/additional-methods.min.js"></script>
+	<script src="lib/js/fastclick.min.js"></script>
+	<!-- Local -->
+	<script src="lib/webfonts/ss-standard.js"></script>
+	<script src="lib/js/ui-sets.js"></script>
+	<script src="lib/js/main.js"></script>
+	<script src="lib/js/exportara.js"></script> 
+	
+<style>
+	li#inicio { background: #42bfc2 !important; color: #fff !important; }
+	li#inicio a:hover { background: #42bfc2 !important; }
+	li#inicio a, li#inicio i { color: #fff !important; }
+</style>
+</head>
+
+<body id="1">
+  <div class="login-form">
+    <div class="wrapper">
+      <form id="form1" class="login-form" name="form1" method="post" action="?controlador=Index&accion=login">   
+
+        <div class="fields">
+          <div class="fields-container">
+            <span class="field user"><i class="ss-icon">&#x1F464;</i><input type="text" name="usuario" placeholder="Usuario"/></span>
+            <span class="field user"><i class="ss-icon">&#x1F464;</i><input type="text" name="usuario" placeholder="Usuario"/></span>
+            <span class="field pass"><i class="ss-icon">&#x1F511;</i><input type="password" name="clave" placeholder="Contrase&#241;a"/></span>
+            <span class="field pass"><i class="ss-icon">&#x1F511;</i><input type="password" name="clave" placeholder="Contrase&#241;a"/></span>
+            <span class="button submit"><input type="submit" name="Acceder" value="Sign UP" /></span>
+          </div>
+        </div>
+
+        <div class="lost-pass"><a href="index.html"><span>Informacion</span></a></div>        
+        <div class="message error">
+          <?=$mensaje?>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<main class="primary">
+	<div class="primary-wrapper">
+
+
+	</div>
+</main>
+
+<script src="lib/js/storage/memory-store.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

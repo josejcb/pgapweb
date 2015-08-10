@@ -1,0 +1,245 @@
+
+/* SMALLER THAN 1280
+========================================================================== */
+
+@media handheld, only screen and (max-width: 1279px) {
+
+	/* GLOBAL
+	====================================================================== */
+
+	/* Body
+	---------------------------------------- */
+
+	body{ 
+		font-size: 17px;}
+
+
+	/* Forms
+	---------------------------------------- */
+
+	input[type=submit], 
+	input[type=button],
+	input[type=reset],
+	button,
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="date"]{ 
+		max-height: 47px;}
+
+	.ui-selectmenu-button{
+		max-height: 25px;}
+
+	.ui-spinner{ 
+		max-height: 21px;}
+
+
+	/* SIDEBAR
+	========================================================================== */	
+
+	/* Navigation
+	---------------------------------------- */	
+	
+	.sidebar-menu{ 
+		display:none;}
+
+
+	/* TOPBAR
+	========================================================================== */
+
+	.top-frame .cerrar-sesion{ 
+		display: none;}
+
+	.top-frame .responsive-menu {
+	    display: inline-block;}
+
+	.top-frame .user{ 
+		display: none;}
+
+	.top-frame .user-mobile{ 
+		display: inline-block;}
+
+
+	/* PRIMARY
+	========================================================================== */
+
+	.primary-slide{ 
+		margin-left: 12.45em;}
+
+	.primary-wrapper {
+		margin: 0;
+		padding: 2em 1em;}
+
+}
+
+
+/* SMALLER THAN 1024
+========================================================================== */
+
+@media handheld, only screen and (max-width: 1023px) {
+
+	/* PRIMARY
+	========================================================================== */
+
+	.search-options	.results-per-page{ 
+		display: none;}
+
+	.search-options .search-for input{ 
+		max-width: 200px;}
+
+
+	/* Date Range */
+
+	.search-options	.col.date-range{ 
+		display: block;
+		margin: 0 0 .5em 0;}
+
+	.search-options	.col.date-range label{ 
+		display: block;}
+
+	.search-options	.col.date-range input{ 
+		max-width: 100%;
+		width: 100%;}
+}
+
+
+/* SMALLER THAN 768
+========================================================================== */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	/* GLOBAL
+	====================================================================== */
+
+	/* Tables
+	---------------------------------------- */
+
+	table thead tr th{ 
+		display: none;}
+
+	table thead tr th:first-child{
+		display: block;
+		font-size: 1em;
+		padding: .5em 1em;}
+
+	table tbody tr{ 
+		border-bottom: 1.5em solid #eee;}
+
+	table tbody tr td{
+		border-bottom: 1px solid #eee;
+		width: 100%;
+		padding: 1em;
+		display: block;}
+
+	table tbody tr td.item p{
+		margin: 0;}
+
+	table tbody tr td.edicion div {
+		display: inline-block;
+		margin-bottom: 0;
+		margin-right: 1em;}
+
+	table tbody tr td.edicion div:last-child {
+		margin-right: 0;}
+
+
+	/* PRIMARY
+	====================================================================== */
+
+	/* Breadcrumbs
+	---------------------------------------- */
+
+	.row,
+	.breadcrumbs{
+		margin-bottom: 2em;}
+
+
+	/* Print buttons / Nuevo registro
+	---------------------------------------- */
+
+	.nuevo-registro .registro.print{ 
+	    float: left;
+	    text-align: left;}
+
+}
+
+
+/* SMALLER THAN 640
+========================================================================== */
+
+@media handheld, only screen and (max-width: 639px) {
+
+	/* GLOBAL
+	====================================================================== */
+
+	body{ 
+		font-size: 16px;}
+
+	input[type=submit], 
+	input[type=button],
+	input[type=reset],
+	button,
+	input[type="text"],
+	input[type="password"],
+	input[type="email"]{ 
+		max-height: 45px;}
+
+	.ui-selectmenu-button{
+		max-height: 22px;}
+
+	.ui-spinner{ 
+		max-height: 19px;}		
+
+
+	/* SIDEBAR
+	========================================================================== */
+
+	.left-sidebar .site-logo img{ 
+		max-width: 114px;
+		padding: 1.55em;}
+
+
+	/* TOPFRAME
+	========================================================================== */		
+
+	.primary-slide {
+		margin-left: 10em;}
+
+	.top-frame {
+		height: 95px;
+		line-height: 95px;
+		margin-left: 157px;
+		padding: 0 2em;}
+
+	.top-frame .text{ 
+		display: none;}
+
+	.top-frame .top-content i{ 
+		font-size: 1.2em;
+		line-height: 95px;}
+
+
+	/* PRIMARY
+	========================================================================== */
+
+	.search-options	.results-per-page,
+	.search-options .search-category{ 
+		display: none;}
+
+	.current-item-description{ 
+		width: auto;
+		padding: 0 2em 0 1.8em;}
+
+	.current-item-description .right{ 
+		display: none;}
+
+	.current-item-description .left{ 
+		width: auto;
+		top: 2.25em;}
+
+	.breadcrumbs .add-more {
+		margin-left: 0;
+		margin-top: 1em;
+		width: 100%;}
+
+}
